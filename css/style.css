@@ -1,0 +1,49 @@
+body{
+	background-image: url('../images/slotbg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Helvetica, sans-serif;
+}
+
+.title{
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.854);
+}
+
+.grid{
+	display: grid;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	padding: 40px;
+	border: 5px solid white;
+	border-radius: 25px;
+	margin: 60px auto;
+
+ }
+
+
+.grid > div {
+	  background-color: rgba(255, 255, 255, 0.8);
+	  text-align: center;
+	  padding: 20px;
+	  border: 5px solid black;
+	  border-radius: 20px;
+}
+
+
+img{
+	width: 120px;
+}
+
+h1, h2{
+	text-align: center;
+	margin: 10px;
+	color: white;
+}
+
+.dec img {
+	height: 300px;
+	width: 120px
+}
+
+
